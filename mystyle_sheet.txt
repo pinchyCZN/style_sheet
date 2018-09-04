@@ -1,0 +1,135 @@
+@-moz-document regexp("^((?!/.+youtube\.com|//www\.google\.com/maps|//mail.google.com).)*$")
+{
+
+
+* {
+	color: RGB(0,255,255) !important;
+	background-color: black !important;
+
+}
+
+
+input, textarea, select {
+	color: yellow !important;
+	background-color: black !important;
+}
+
+
+button, input[type="file"], input[type="submit"], input[type="button"], input[type="reset"] {
+	color: yellow !important;
+	background: RGB(120,0,0) !important;
+}
+
+
+
+
+body,td,tr,th,.p{
+	color: RGB(0,255,255) !important;
+	font-family: tahoma !important;
+	background-color: black !important;
+}
+
+[id*="main-content"],[class*="wiki"],html{
+	color: RGB(0,255,255) !important;
+	font-family: tahoma !important;
+	background-color: black !important;
+}
+
+
+::-moz-placeholder{
+		color: green !important;
+}
+
+::-moz-selection{
+	color: RGB(0,255,255);
+	background-color: blue;
+}
+
+
+
+#frame{
+	background-color: RGB(0,0,0) !important;
+	}
+
+	label.commentHider,label.commentTreeHider,label.expandAll{
+		background-color: RGB(30,30,30)  !important;
+
+}
+
+
+pre,header,span{
+	color: RGB(0,255,255) !important;
+	font-family: tahoma !important;
+	background-color: RGB(0,0,0) !important;
+}
+
+
+div{
+	color: RGB(0,255,255) !important;
+	font-family: tahoma !important;
+	background-color : RGB(0,0,0)  !important;
+
+}
+
+div.details{
+	background : RGB(0,0,0)  !important;
+}
+
+div[class^="forum"]{
+	color: RGB(0,255,255) !important;
+	font-family: tahoma !important;
+	background-color: RGB(0,0,0) !important;
+}
+
+div[id$="photo-drag-proxy"]{
+	width:1px !important;
+}
+
+
+code {
+	color: RGB(0,255,255) !important;
+	background-color: black !important;
+}
+
+
+
+
+
+a[href]:hover, a[href]:hover * {
+	color: RGB(0,255,255) !important;
+	background-color: black !important;
+	text-decoration: underline !important;
+}
+
+	a[href]:hover img {
+	background-color: RGB(140,140,140) !important;
+}
+
+img[src$=".png"],img[src$=".svg"] {
+	/*border: thin solid green !important;*/
+	background-color: grey !important;
+}
+
+
+
+@media print {
+	* {
+		color: green !important;
+		background-color: black !important;
+	}
+}
+
+a[href]:visited ,a[link]:visited {
+/*	text-decoration: underline !important;*/
+	background-color: RGB(0,0,0) !important;
+	color: RGB(200,255,50) !important;
+}
+
+
+a[href],a[link] {
+	color: green !important;
+}
+
+
+
+}
