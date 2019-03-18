@@ -9,10 +9,13 @@
 
 }
 
+.backButtonContainer, .nextButtonContainer {
+	opacity: 0.0 !important;
+}
 	
-	.a-color-base{
+.a-color-base{
 	color: RGB(0,255,255) !important;
-	}
+}
 	
 input, textarea, select {
 	color: yellow !important;
